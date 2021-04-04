@@ -67,21 +67,6 @@ void loop() {
   difficultyState = digitalRead(difficultyPin);
   startState = digitalRead(startPin);
 
-  // choosing difficulty
-//  if (difficultyState = HIGH && startState == LOW) {
-//    delay(100);
-//    difficulty++;
-//    determineDifficulty();
-//    Serial.println(difficulty);
-//    Serial.println("DOES THIS PRINT");
-//    digitalWrite(LED_BUILTIN, HIGH);
-//  }
-//  if (difficultyState = LOW && startState == HIGH) {
-//    delay(1000);
-//    game();
-//    digitalWrite(LED_BUILTIN, HIGH);
-//  }
-
   if (difficultyState == HIGH) {
     // turn LED on:
     delay(500);
